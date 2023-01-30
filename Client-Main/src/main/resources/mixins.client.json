@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "verbose": true,
+  "package": "tk.simplexclient.mixin.impl",
+  "refmap": "mixins.client.refmap.json",
+  "target": "@env(DEFAULT)",
+  "mixins": [
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinGuiIngame",
+    "MixinGuiMainMenu",
+    "MixinGuiNewChat",
+    "MixinGuiOverlayDebug",
+    "MixinMinecraft",
+    "MixinShaderGroup"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
