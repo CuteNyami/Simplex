@@ -1,4 +1,4 @@
-# SimplexClient_v2
+# Simplex
 
 Under Developement!
 
